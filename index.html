@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getIntruduction</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="csvToArr.js"></script>
+    <script src="sort.js"></script>
+    <script src="getIntro.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>到着したゲストを紹介</h1>
+ 
+    <p>ゲスト名を入力してください</p>
+    <p> カンマ(,)で区切ってください </p>
+    <input type="text" id="geustName"></input>
+    <button type="button" name="greeting" onclick="greetClick()">挨拶開始</button>
+    <button type="button" name="sorting" onclick="sortClick()">整列</button>
+    <div id="greetArea"></div>
+    <div id="sortArea"></div>
+  
+  </body>
+</html>
